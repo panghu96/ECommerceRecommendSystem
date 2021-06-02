@@ -57,7 +57,7 @@ object OfflineRecommender {
                 //后面计算多次用到此RDD
                 .cache()
 
-        //提取用户矩阵和物品矩阵
+        //提取用户向量和物品向量
         val userRDD = productRatingRDD.map(_._1).distinct()
         val productRDD: RDD[Int] = productRatingRDD.map(_._2).distinct()
 
