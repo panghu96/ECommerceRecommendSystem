@@ -30,7 +30,7 @@ object CommenBaseRecommerder {
     val MONGODB_PRODUCT_COLLECTION = "Product"
 
     //存储推荐列表的表
-    val COMMEN_BASE_RECS = "CommenRecs" //物品相似度矩阵
+    val COMMEN_BASE_RECS = "CommenRecs"
     //推荐列表长度
     val USER_MAX_RECOMMENDATION = 20
 
