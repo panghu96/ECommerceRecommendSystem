@@ -16,6 +16,9 @@
         <module>DataLoader</module>
         <module>StatisticsRecommender</module>
         <module>OfflineRecommender</module>
+        <module>StreamingRecommender</module>
+        <module>CommenBaseRecommender</module>
+        <module>ItemCFRecommender</module>
     </modules>
 
     <!-- 仅声明但不引入，子项目需要下列依赖，需要自行引入 -->
